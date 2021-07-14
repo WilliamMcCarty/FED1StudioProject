@@ -1,0 +1,25 @@
+﻿main{
+    background-color: antiquewhite;
+    color: saddlebrown;
+}
+
+footer{
+    font-style: italic;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.headerstyle{
+    text-decoration: underline;
+}
+
+#footerStyle{
+    background-color: saddlebrown;
+    color: antiquewhite;
+}
+
+a{
+    text-decoration: none;
+}

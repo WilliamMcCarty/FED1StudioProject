@@ -1,30 +1,185 @@
-﻿main{
-    background-color: antiquewhite;
-    color: saddlebrown;
+﻿header {
+    position: relative;
+    margin: 0;
+    background-color: saddlebrown;
+    height: 160px;
 }
 
-footer{
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: antiquewhite;
+    position: absolute;
+    top: 33px;
+    left: 155px;
+    width: 400px;
+}
+
+header p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-size: 16px;
     font-style: italic;
+    font-weight: 300;
+    height: 20px;
+    position: absolute;
+    top: 67px;
+    left: 155px;
+}
+
+header nav {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+header nav ul {
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li:after {
+    display: block;
+    content: '';
+    border-bottom-color: antiquewhite;
+    border-bottom: solid 4px;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+header nav ul li.currentpage:after {
+    border-bottom-color: moccasin;
+    transform: scaleX(1);    
+    transform: scale(1,3);
+}
+
+header nav ul li.currentpage a:hover,
+header nav ul li.currentpage a:active {
+    color: white;
+}
+
+header nav ul li a {
+    color: blanchedalmond;
+    display: block;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+header nav li:hover,
+header nav li:active {
+    border-bottom-color: antiquewhite;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    color: white;
+}
+
+header .headerlogo {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header .headerlogo img {
+    width: 100%;
+    max-width: 90px;
+}
+
+main {
+    background-color: blanchedalmond;
+    color: saddlebrown;
+    max-width: 960px;    
+    box-shadow: 20px 0 8px -12px #BBB, -20px 0 8px -12px #BBB;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: saddlebrown;
+    width: 100%;
+    color: antiquewhite;
+    height: 80px;
 }
 
 #headerStyle {
     color: saddlebrown;
 }
 
-.headerstyle{
+.headerstyle {
     text-decoration: underline;
 }
 
-#footerStyle{
+#footerStyle {
     background-color: saddlebrown;
     color: antiquewhite;
 }
 
-a{
+a {
     color: saddlebrown;
     text-decoration: none;
     padding-left: 40px;
+    transition: transform 280ms ease-in-out;
 }
-body{
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #222;
     background-color: antiquewhite;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.contact {
+    width: 600px;
+    margin: auto;
+    min-height: 800px;
+    background-color: blanchedalmond;
+}
+
+.contact .phone,
+.contact .email,
+.contact .address {
+    font-size: 1.5em;
+}
+
+.contact .label {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-right: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+
+.contact a{
+    color: saddlebrown;
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    color: rosybrown;
+}
+
+.wrapper {
+    margin: 0 20px;
+}
+

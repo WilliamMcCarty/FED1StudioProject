@@ -2,7 +2,7 @@
     position: relative;
     margin: 0;
     background-color: saddlebrown;
-    height: 160px;
+    height: 160px;    
 }
 
 header h1 {
@@ -88,13 +88,15 @@ header nav ul li a:active {
 header .headerlogo {
     display: block;
     float: left;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 8px;
 }
 
 header .headerlogo img {
     width: 100%;
     max-width: 90px;
+    box-shadow: 4px 5px 5px #999;
+    border-radius: 10px;
 }
 
 main {
@@ -128,7 +130,7 @@ footer {
 #footerStyle {
     background-color: saddlebrown;
     color: antiquewhite;
-    font-size: 17px;
+    font-size: 17px; 
 }
 
 a {
@@ -150,6 +152,7 @@ body {
 .contact {
     width: 600px;
     margin: auto;
+    overflow: auto;    
     min-height: 800px;
     background-color: blanchedalmond;
 }
@@ -185,7 +188,7 @@ body {
     margin: 0 20px;
 }
 
-hr {
+.headerhr {
     width: 100%;
     height: 1px;
     margin-left: auto;
@@ -193,4 +196,6 @@ hr {
     margin-top: 200px;
     background-color: moccasin;
 }
+
+
 

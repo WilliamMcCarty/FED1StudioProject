@@ -71,7 +71,13 @@
     <Content Include="Contact.html" />
     <Content Include="CSS\bytebrothers.css" />
     <Content Include="favicon.ico" />
+    <Content Include="IMAGES\assembler.jpg" />
     <Content Include="IMAGES\bytebrotherslogo.jpg" />
+    <Content Include="IMAGES\cobol.jpg" />
+    <Content Include="IMAGES\cplus.jpg" />
+    <Content Include="IMAGES\csharp.jpg" />
+    <Content Include="IMAGES\jcl.jpg" />
+    <Content Include="IMAGES\vb.jpg" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />

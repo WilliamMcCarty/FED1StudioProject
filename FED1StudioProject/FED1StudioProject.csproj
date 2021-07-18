@@ -72,6 +72,7 @@
     <Content Include="CSS\bytebrothers.css" />
     <Content Include="favicon.ico" />
     <Content Include="IMAGES\assembler.jpg" />
+    <Content Include="IMAGES\bytebrotherslogo.gif" />
     <Content Include="IMAGES\bytebrotherslogo.jpg" />
     <Content Include="IMAGES\cobol.jpg" />
     <Content Include="IMAGES\cplus.jpg" />

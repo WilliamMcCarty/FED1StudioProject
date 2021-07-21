@@ -377,9 +377,9 @@ footer .socialfooter {
         color: saddlebrown;
     }
 
-    .departmentSidebar a:hover {
-        color: rosybrown;
-    }
+        .departmentSidebar a:hover {
+            color: rosybrown;
+        }
 
     .departmentSidebar .back-to-top {
         position: fixed;
@@ -448,5 +448,5 @@ footer .socialfooter {
         .teamMembers section article .memberBio {
             padding-top: 0px;
             font-size: 20px;
-            font-style: italic; 
+            font-style: italic;
         }

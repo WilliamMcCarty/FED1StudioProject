@@ -58,7 +58,7 @@ header {
                     display: block;
                     content: '';
                     border-bottom-color: antiquewhite;
-                    border-bottom: solid 4px;
+                    border-bottom: double 5px;                
                     transform: scaleX(0);
                     transition: transform 250ms ease-in-out;
                 }
@@ -71,7 +71,7 @@ header {
 
                 header nav ul li.currentpage a:hover,
                 header nav ul li.currentpage a:active {
-                    color: white;
+                    color: moccasin;
                 }
 
                 header nav ul li a {
@@ -90,7 +90,7 @@ header {
 
         header nav ul li a:hover,
         header nav ul li a:active {
-            color: white;
+            color: moccasin;
         }
 
     header .headerlogo {

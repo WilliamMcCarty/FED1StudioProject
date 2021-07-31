@@ -71,6 +71,9 @@
     <Content Include="Contact.html" />
     <Content Include="CSS\bytebrothers.css" />
     <Content Include="favicon.ico" />
+    <Content Include="IMAGES\aboutus.jpg" />
+    <Content Include="IMAGES\background.jpg" />
+    <Content Include="IMAGES\classroom.jpg" />
     <Content Include="IMAGES\Employees\Abby-Johnson.jpg" />
     <Content Include="IMAGES\Classes\assembler.jpg" />
     <Content Include="IMAGES\Header\bytebrotherslogo.gif" />
@@ -91,6 +94,7 @@
     <Content Include="IMAGES\Employees\Sarah-Winston.jpg" />
     <Content Include="IMAGES\Employees\Susan-Kyle.jpg" />
     <Content Include="IMAGES\Classes\vb.jpg" />
+    <Content Include="IMAGES\studentteacher.jpg" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />

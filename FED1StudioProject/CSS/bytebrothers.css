@@ -531,3 +531,30 @@ footer .socialfooter {
     font-size: 28px;
     text-shadow: 2px 4px 5px darkgray;
 }
+
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #FFF;
+    }
+
+    #lightbox-container img {
+        border: 10px solid #FFF;
+        margin: auto;
+        border-radius: 100px;
+        box-shadow: 4px 5px 5px #999;
+    }
